@@ -1,0 +1,2 @@
+git lfs fetch -all
+git push --mirror https://chandu8183049@dev.azure.com/chandu8183049/quantiphi-test/_git/quantiphi-test
