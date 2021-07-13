@@ -9,14 +9,14 @@ import { ToolRunner } from "azure-pipelines-task-lib/toolrunner";
 import { GitMirrorTask } from "./git-mirror-task";
 
 describe("GitMirrorTask", () => {
-    const sourceUri = "https://github.com/swellaby/vsts-mirror-git-repository";
+    const sourceUri = "https://github.com/chandu8183049/quantiphi-test";
     const sourceUriInputKey = "sourceGitRepositoryUri";
     const sourcePAT = "xxxxxxxxxx";
     const sourceRepoCloneDirInputKey = "sourceGitRepositoryCloneDirectoryName";
     const sourceTokenInputKey = "sourceGitRepositoryPersonalAccessToken";
     const sourceVerifySSLCertificate = true;
     const sourceSSLInputKey = "sourceVerifySSLCertificate";
-    const destinationUri = "https://github.com/swellaby/vsts-mirror-git-repository";
+    const destinationUri = "https://chandu8183049@dev.azure.com/chandu8183049/quantiphi-test/_git/quantiphi-test";
     const destinationUriInputKey = "destinationGitRepositoryUri";
     const destinationPAT = "xxxxxxxxxx";
     const destinationTokenInputKey = "destinationGitRepositoryPersonalAccessToken";
