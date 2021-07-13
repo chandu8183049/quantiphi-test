@@ -1,0 +1,7 @@
+- task: chandu8183049.mirror-git-repository.mirror-git-repository-vsts-task.mirror-git-repository-vsts-task@1
+  displayName: 'Mirror Git Repository'
+  inputs:
+    sourceGitRepositoryUri: 'https://github.com/chandu8183049/quantiphi-test'
+    sourceVerifySSLCertificate: false
+    destinationGitRepositoryUri: 'https://chandu8183049@dev.azure.com/chandu8183049/quantiphi-test/_git/quantiphi-test'
+    destinationGitRepositoryPersonalAccessToken: '$(destVar)'
