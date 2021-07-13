@@ -1,4 +1,4 @@
-mkdir copyrepo
+
 $sourceURL = "https://github.com/chandu8183049/quantiphi-test"
 $destURL = "https://chandu8183049@dev.azure.com/chandu8183049/quantiphi-test/_git/quantiphi-test"
 Set-Location "$(Build.SourcesDirectory)/copyrepo"
